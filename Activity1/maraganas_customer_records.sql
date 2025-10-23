@@ -27,6 +27,12 @@ SET time_zone = "+00:00";
 -- Table structure for table `categories`
 --
 
+-- create database maraganas_customer_records;
+-- use maraganas_customer_records;
+
+CREATE database  maraganas_customer_records;
+use maraganas_customer_records;
+
 CREATE TABLE `categories` (
   `CategoryID` int(11) NOT NULL,
   `CategoryName` varchar(50) DEFAULT NULL,
